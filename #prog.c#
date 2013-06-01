@@ -1,0 +1,21 @@
+oinclude <stdio.h>
+int one();
+int two();
+int three();
+
+int main(){
+  
+  int x;
+
+  x = one();
+  printf("one returns %i, ", x);
+  
+  x = two();
+  printf("two returns %i, and ", x);
+  
+  x = three();
+  printf("three returns %i.\n", x);
+  
+  return 0;
+}
+// page 161 7.4 for problem examples.. answer in back of book 
